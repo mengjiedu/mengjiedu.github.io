@@ -1,0 +1,51 @@
+
+
+
+/*重置*/
+*{font-size:12px;font-family:"微软雅黑";color:#333;list-style:none;}
+body{margin:0;padding:0;}
+img{display:block;margin:0;border:0;}
+a,li{display:block;text-decoration:none;}
+/*header*/
+.header{width:941px;overflow:hidden;margin:0 auto;}
+.top{overflow:hidden;padding-bottom:36px;}
+.logo{float:left;padding-top:43px;}
+.top_right{float:right;padding-top:43px;}
+.top_right input,.top_right a{float:left;} 
+.top_right .content{height:30px;}
+.top_right a{margin-right:10px;}
+.search{width:35px;height:35px;background-image
+:url(../images/search.png);background-repeat:no-repeat;}
+/*nav*/
+.big_box{width:100%;height:50px;background-color:#e6e6e6;}
+.nav{overflow:hidden;width:941px;margin:0 auto;line-height:50px;}
+.nav a:hover{background-color:white;width:120px;cursor:pointer;}
+.nav li{float:left;}
+.nav li a{font-size:16px;text-align:center;margin-right:55px;}
+/*roll*/
+.showwin{overflow:hidden;width:941px;height:382px;margin:0 auto;margin-top:40px;margin-bottom:36px;}
+.images_box{width:9410px;height:382px;}
+.images_box a{float:left;}
+.images_box img{width:941px;height:382px;}
+/*
+.btns{position:absolute;bottom:5px;right:5px;overflow:hidden;}
+.btns a{float:left;width:20px;height:20px;margin:0 5px;cursor:pointer;}*/
+/*images*/
+.images{width:941px;margin:0 auto;overflow:hidden;}
+.left{float:left;margin-bottom:36px;}
+.right{float:right;margin-bottom:36px;}
+.left img,right img{width:450px;height:280px;}
+/*footer*/
+.footer{border-top:solid 1px #CCCCCC;overflow:hidden;margin:0 auto;width:100%;}
+.footer_box{float:left;margin-left:32px;border-right:solid 1px #CCCCCC;padding-right:32px;margin-top:30px;}
+.margin-left{margin-left:30%;}
+.border-right{border-right:none;}
+.footer-bottom{background-color:#999;margin-top:250px;}
+.footer-bottom span{display:inline;margin-left:24%;}
+/*child*/
+.imagestop,.imagesbottom{overfloat:hidden;}
+.imagestop01{float:left;margin-right:20px;}
+.margin-right{float:right;}
+.imagestop  img{width:300px;height:476px;padding-bottom:20px;}
+.imagesbottom img{width:228px;height:333px;padding-bottom:20px;}
+.imagesbottom01{float:left;margin-right:9px;}

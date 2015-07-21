@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>Mengjie Du's Page</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="mengjiedu's world" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+</script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+						$(document).ready(function() {
+							
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+</head>
+<body>
+<div class="header">
+ <div class="tiles">
+    <div class="header_mac"><a href="#touch" class="scroll">
+    	<i class="icon1"></i>
+		<h3>Links</h3>
+	</a></div>
+	<div class="header_book"><a href="#what" class="scroll">
+    	<i class="icon2"></i>
+		<h3>Experience</h3>
+	</a></div>
+	<div class="logo">
+		<a href="index.html"><img src="images/logo.png" alt=""/></a>
+	</div>
+	<div class="header_team"><a href="#team" class="scroll">
+    	<i class="icon3"></i>
+		<h3>Hobby</h3>
+	</a></div>
+	<div class="header_about"><a href="#about" class="scroll">
+    	<i class="icon4"></i>
+		<h3>About Me</h3>
+	</a></div>
+	<div class="header_contact"><a href="mailto:mjdu722@gmail.com" title="email" target="_blank">
+    	<i class="icon5"></i>
+		<h3>Mail</h3>
+	</a></div>
+	<div class="header_social">	
+		<ul>	
+		   <li><a href="https://www.facebook.com/people/Mengjie-Du/100004309836644" target="_blank" rel="nofollow"> <i class="fb1"> </i> </a></li>
+		   <li><a href="https://twitter.com/mengjiedu722" target="_blank" rel="nofollow"> <i class="tw1"> </i> </a></li>
+		   <li><a href="http://weibo.com/melody19890722" target="_blank" rel="nofollow"> <i class="db1"> </i> </a></li>
+		   <li><a href="http://wpa.qq.com/msgrd?v=3&uin=317295747&site=qq&menu=yes" target="_blank" rel="nofollow"> <i class="g1"> </i> </a></li> 
+		   <li><a href="https://www.linkedin.com/pub/mengjie-du/8b/492/369" target="_blank" rel="nofollow"> <i class="skype"> </i> </a></li>
+		   <li><a href="http://qzone.qq.com" target="_blank" rel="nofollow"> <i class="vimeo"> </i> </a></li>
+		</ul>
+	</div>
+	<div class="header_arrow">
+	  <a href="#arrow" class="scroll"><span> </span></a>
+    </div>
+    <div class="menu_down">																
+	   <a href="#" id="activator1"></a>
+	</div>
+ </div>
+</div>
+<div class="header_responsive"> 
+	<div class="tiles_resp">
+		<div class="header_arrow">
+	  <a href="#arrow" class="scroll"><span> </span></a>
+    </div>
+    <div class="menu">																
+			<a href="#" class="right_bt" id="activator"><img src="images/menu_responsive.png" alt=""/></a>
+				<div class="box" id="box">
+				   <div class="box_content_center">
+					   <div class="menu_box_list">
+						   <ul>
+							   <li><a href="#services" class="scroll">links</a></li>
+							   <li class="active"><a href="#about" class="scroll">About Mw</a></li> 
+							   <li><a href="#what" class="scroll">Experience</a></li>
+							   <li><a href="#team" class="scroll">Hobby</a></li>
+							   <li><a href="#touch" class="scroll">Email</a></li>
+							</ul>
+						</div>
+						<a class="boxclose" id="boxclose"><img src="images/close.png" alt=""/></a>
+					  </div>                
+					</div>
+					<script type="text/javascript">
+								var $ = jQuery.noConflict();
+									$(function() {
+										$('#activator').click(function(){
+												$('#box').animate({'top':'0px'},500);
+										});
+										$('#boxclose').click(function(){
+												$('#box').animate({'top':'-700px'},500);
+										});
+									});
+									$(document).ready(function(){
+									
+									//Hide (Collapse) the toggle containers on load
+									$(".toggle_container").hide(); 
+									
+									//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+									$(".trigger").click(function(){
+										$(this).toggleClass("active").next().slideToggle("slow");
+										return false; //Prevent the browser jump to the link anchor
+									});
+									
+									});
+					</script>
+				</div> 	
+    </div>
+</div>
+<div class="main">
+  <div class="about" id="about">
+		<div class="container">
+		  <div class="about_top">
+			<h2 class="m_3"><b>About</b><span class="m_1">　<b>Me</b></span></h2>
+			<p class="head_text">Technically sophisticated Internet professional with a solid history of effective design, development, and implementation of highly visible and well-trafficked Web sites<br/><br/><br/><b>BOSTON UNIVERSITY</b>, Boston, Massachusetts – Master of Educational Media & Technology<br/><b>
+LIAONING NORMAL UNIVERSITY</b>, Dalian, China – Bachelor of Science, Computer Science
+</div>
+		  <div class="about_bottom">
+		    <div class="clearfix"> </div>
+    </div>
+   </div>
+  </div>
+
+    <div class="about" id="what">
+		<div class="container">
+			<h3 class="m_4"><b>Experience<b/> &amp;<span class="m_1">&nbsp <b>Skills<b/></span></h3>
+
+			<p class="head_text"><b><span style="font-size:30px">PROJECT EXPERTISE</span><b> : &nbsp&nbsp  I. <a href="http://originfp.statisfy.co" target="_blank">Fashionplaytes.com</a>, an Online Learning School &nbsp&nbsp II. Online Book Management System (BMS) Montoya &nbsp&nbsp III. Web Crawler and P2P Search Engine &nbsp&nbsp IV. Trip Tracer: A Travel Information Sharing Website<br/></br><span style="font-size:30px"><b>Work Experience and Design :</b></span></p>
+		   <div class="top_grids">   
+		    <div class="col-md-3 grid1">
+		    	<span> </span>
+		    	<div class="top_grid">
+					<h3>Ikea</h3>	
+					<p><a href="ikea/index.html"  target="_blank">Design</a></p>		
+			    </div>
+		    </div>
+		    <div class="col-md-3 grid1">
+		    	<span> </span>
+		    	<div class="top_grid">
+					<h3>YC</h3>	
+					<p><a href= "yichun/yichunindex.html" target="_blank">Fashion</a></p>		
+			    </div>
+		    </div>
+		    <div class="col-md-3 grid1">
+		    	<span> </span>
+		    	<div class="top_grid">
+					<h3>Rui</h3>	
+					<p><a href="accounting/index.html" target="_blank">Accounting</a></p>			
+			    </div>
+		    </div>
+		    <div class="col-md-3 grid1">
+		    	<span> </span>
+		    	<div class="top_grid">
+					<h3>FP</h3>	
+					<p><a href="http://originfp.statisfy.co" target="_blank" rel=”nofollow”>Girls</a></p>			
+			    </div>
+		    </div>
+		</div>
+		</div>
+  </div>
+  <div class="team">
+		<div class="container">
+          <h3 class="m_4" id="team"><b>My</b><span class="m_1"><b>Life</b></span></h3>
+         <div class="team_top text-center">
+         	<div class="col-md-3 team_grid">
+         		<img src="images/tokyo.jpg" class="img-responsive" alt="tokyo"/>
+         		<h3><a href='http://www.tripadvisor.com/Tourism-g294232-Japan-Vacations.html' target="_blank">Tokyo, Japan</a></h3>
+         	</div>
+         	<div class="col-md-3 team_grid">
+         		<img src="images/paris.jpg" class="img-responsive" alt="paris"/>
+         		<h3><a href='http://www.tripadvisor.com/Tourism-g187070-France-Vacations.html' target="_blank">Paris, France</a></h3>
+         	</div>
+         	<div class="col-md-3 team_grid">
+         		<img src="images/italy.jpg" class="img-responsive" alt="italy"/>
+         		<h3><a href='http://www.tripadvisor.com/Tourism-g187768-Italy-Vacations.html' target="_blank">Pisa, Italy</a></h3>
+         	</div>
+         	<div class="col-md-3 team_grid">
+         		<img src="images/spain.jpg" class="img-responsive" alt="spain"/>
+         		<h3><a href='http://www.tripadvisor.com/Tourism-g187427-Spain-Vacations.html' target="_blank">Barcelona, Spain</a></h3>
+         	</div>
+         </div>
+		</div>
+  </div>
+</div>
+<div class="contact" id="touch">
+  <div class="container">
+		<h4>Lin<span class="m_1">ks</span></h4>
+		<p><a href="http://www.w3schools.com" title="w3school" target="_blank">W3School</a>&nbsp;｜&nbsp;<a href="https://developer.mozilla.org/en-US/" title="Mozilla" target="_blank">Mozilla</a></span>&nbsp;｜&nbsp;<a href="http://nodeschool.io" title="node" target="_blank">Node</a>&nbsp;｜&nbsp;<a href="https://github.com/angular" title="angular" target="_blank">Angular</a>&nbsp;｜&nbsp;<a href="https://www.ruby-lang.org/en/" title="ruby" target="_blank">Ruby</a></span></p>
+		<div class="contact_but"></div>
+	    <p class="copy">Copyright &copy; 2014-2015.Mengjie Du All rights reserved.<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?d8a9742a7240454aee5275047381d2bf";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></p>
+	</div>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+</body>
+</html>
